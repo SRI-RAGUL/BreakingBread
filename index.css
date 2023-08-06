@@ -1,0 +1,156 @@
+:root{
+    --violet:#6F61C0;
+    --purple:#A084E8;
+    --blue:#8BE8E5;
+    --green:#D5FFE4;
+    --white:#FFF6DC;
+
+}
+body{
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.landing{
+    background-image: url(bg\ cake.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+header a{
+    text-decoration: none;
+    color:var(--white);
+}
+header{
+    display: flex;
+    padding: 1em;
+    
+}
+nav{
+}
+nav a{
+ background-color: #1d1b1b;
+ padding: 10px;
+ border-radius: 100px;
+border-style: dotted;
+margin-left: 200px;
+gap: 150px;
+display: grid;
+grid-template-columns: 1FR 1FR 1FR;
+    
+}
+nav a:hover{
+    color: #8BE8E5;
+}
+.maintext{
+    display:flex;
+    flex-direction: column;
+    height: 60vh;
+    justify-content: center;
+    padding: 2em;
+}
+.tag1{
+    color:#343534;
+    font-weight:600;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 2em;
+    border: #6F61C0;
+    border-radius: 10%;
+    background-color: #D5FFE4;
+    width: 170px;
+    
+}
+.tag2{
+    color:#e729bd ;
+    font-weight: bolder;
+}
+.callus{
+    color:#1d1b1b;
+    margin-top:0.4em;
+}
+button{
+    width: 125px;
+    height: 25px;
+    margin-top: 2em;
+    border-radius: 5px;
+    background-color: #29d020;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+   border: 2px solid rgb(28, 24, 24);
+
+}
+button:hover{
+    color: rgb(245, 245, 245);
+}
+.maintext{
+    margin-top:1em;
+}
+table{
+    border-collapse: separate;
+    border-spacing: 10px 10px;
+  
+}
+th{
+    background-color: var(--purple);
+    color: black;
+    border-radius: 5px;
+
+}
+tr{
+    background-color:var(--green)
+    
+    
+   
+}
+td{
+    background-color:rgb(189, 201, 170)
+    
+    
+}
+tr:hover{
+    color: rgb(211, 42, 42);
+    border-radius: 10px;
+}
+table{
+   background-image: url(bg\ cake2.jpg);
+  background-position: center;
+  background-size: cover;
+   height: 25vh;
+    display: grid;
+    
+}
+.footer button {
+    background-color: #1d1b1b;
+    color: #FFF6DC;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   margin-left: 50%;
+}
+.chocolates{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+h4 {font-family: cursive;
+
+}
+p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.footer button:hover{
+    background-color: var(--blue);
+}
+.icons img{
+
+    width: 50px;
+    height: 50px;
+    padding: .25em;
+}
+HEADER h2 i, NAV a i{
+    margin-right: .5em;
+    
+}
+.fa-solid fa-shop{
+    display: flex;
+    margin-top: 100px;
+}
